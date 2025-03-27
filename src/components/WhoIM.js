@@ -35,6 +35,7 @@ const WhoIM = () => {
 
             <span className="flex items-center justify-center gap-3 font-sans text-gray-200">
             <FaHandPointRight /> Web Development
+            <FaHandPointRight /> Mobile Development
             </span>
         </span>
         </div>
