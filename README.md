@@ -1,6 +1,8 @@
 # Portfolio Website
 
-Welcome to my **Portfolio Website** GitHub repository! This repository contains the source code for my personal portfolio website built with React.
+Welcome to my **Portfolio Website** GitHub repository! 🎨🚀
+
+This repository contains the source code for my personal portfolio website, developed using React to showcase my projects, skills, and experience.
 
 ## Table of Contents
 
