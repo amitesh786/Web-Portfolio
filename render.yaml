@@ -1,7 +1,7 @@
 services:
   - name: amitesh-portfolio
+    type: static
     buildCommand: npm install && npm run build
     staticPublishPath: build
     repo: https://github.com/amitesh786/Web-Portfolio
-    type: static
     branch: main
