@@ -15,14 +15,18 @@ const PersonalInfo = () => {
         </h1>
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-3/4 lg:mr-10">
           <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-semibold lg:text-lg">
-            <p>
-              I'm a Senior Frontend Developer based in Milan with 8+ years of experience in JavaScript, React, Angular, Vue, Next.js, Node.js, and Express.js. I build high-performance, scalable web applications, from blogging platforms to e-commerce solutions.
-              Passionate about UI/UX, I craft responsive, optimized, and engaging user experiences, blending design best practices with cutting-edge frontend technologies.
-            </p>
-            <p>
-              Constantly learning and evolving, I thrive in dynamic environments where technology meets creativity. 
-              Let's connect and build exceptional digital experiences together!
-            </p>
+          <p>
+            I'm a Senior Frontend Developer based in Milan with 8+ years of experience creating high-performance, scalable web applications across various domains.
+            <br />I specialize in crafting responsive and engaging user interfaces with a strong focus on UI/UX.
+          </p>
+          <p>
+            Lately, I've been exploring AI and machine learning, building smart bots to automate appointment bookings and cancellations.
+            <br />I also work with Docker and Kubernetes to optimize deployment and scalability in cloud environments.
+            <br />Always learning and evolving, I thrive where technology and creativity intersect.
+          </p>
+          <p>
+            <strong>Let's connect and build something great together!</strong>
+          </p>
           </span>
         </div>
       </div>
