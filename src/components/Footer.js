@@ -9,7 +9,7 @@ const Footer = () => {
           Designed and Developed by Amitesh
         </p>
         <p className="text-sm font-semibold text-center m-2">
-          Copyright © 2025 Amitesh.dev
+          Copyright © 2025 Amitesh
         </p>
         <span className="flex items-center justify-center gap-7 m-2">
           <a
