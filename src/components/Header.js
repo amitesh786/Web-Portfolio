@@ -16,7 +16,7 @@ const Header = () => {
   
   const [showNav, setShowNav] = useState(false);
   const [scroll, setScrolled] = useState(false);
-  const name = ["{ Amitesh }"];
+  const name = ["{ Amitesh Singh }"];
 
   const handleScroll = () => {
     const offset = window.scrollY;
