@@ -7,17 +7,19 @@ const Type = () => {
       <Typewriter
         words={
           [
-            "Senior Frontend Developer", 
-            "React-Native Mobile Developer", 
+            "Senior Frontend Developer",
+            "React-Native Mobile Developer",
+            "Node.js Developer",
             "Freelancer",
-            "Nodejs Developer",
+            "AI/ML Enthusiast",
+            "DevOps with Docker & Kubernetes"
           ]}
         loop={0}
         cursor
         cursorStyle="|"
-        typeSpeed={50}
-        deleteSpeed={30}
-        delaySpeed={1000}
+        typeSpeed={100}
+        deleteSpeed={50}
+        delaySpeed={2000}
       />
     </div>
   );
