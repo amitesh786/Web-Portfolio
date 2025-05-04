@@ -16,7 +16,7 @@ const Header = () => {
   
   const [showNav, setShowNav] = useState(false);
   const [scroll, setScrolled] = useState(false);
-  const name = ["{ Amitesh Singh }"];
+  const name = ["Amitesh"];
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -41,10 +41,11 @@ const Header = () => {
     >
       <span className="capitalize md:w-1/3 lg:w-1/2 flex items-center justify-center py-5 px-2 relative">
         <h1
-          className="cursor-pointer text-xl lg:text-3xl font-bold bg-gradient-to-r from-gray-50 to-blue-100 bg-clip-text text-transparent uppercase"
+          className="flex items-center gap-2 cursor-pointer text-xl lg:text-3xl font-bold bg-gradient-to-r from-gray-50 to-blue-100 bg-clip-text text-transparent uppercase"
           onClick={() => navigate("/")}
         >
           {name}
+          <img src="mine.png" alt="Logo" className="w-6 h-6" />
         </h1>
       </span>
       <div className="w-2/3 hidden lg:flex items-center justify-start text-white">
