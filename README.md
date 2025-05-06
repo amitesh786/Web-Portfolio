@@ -19,7 +19,7 @@ To get started with this project, you can either clone the repository or fork it
 
 #### Clone the repo or fork it to your GitHub account.
 
-`git clone https://github.com/amitesh786/Web-Portfolio.git`
+- `git clone https://github.com/amitesh786/Web-Portfolio.git`
 
 #### Open the project folder in your code editor.
 
@@ -46,3 +46,6 @@ You can use this portfolio website built with React as a template for showcasing
 ## Contact
 
 If you have any questions or want to connect, you can reach me at [amitesh.jy.786@gmail.com](mailto:amitesh.jy.786@gmail.com).
+
+## Author Amitesh Singh – [GitHub](https://github.com/amitesh786)
+- Feel free to contribute or suggest improvements! 🙌
