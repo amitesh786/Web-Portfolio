@@ -1,25 +1,14 @@
 import React from "react";
 import {
   format,
-  parseISO,
-  getDay,
   eachDayOfInterval,
   startOfYear,
   endOfYear,
   getMonth,
   isSunday,
-  isMonday,
 } from "date-fns";
 
-const levelColors = {
-  0: "#ebedf0",
-  1: "#c6e48b",
-  2: "#7bc96f",
-  3: "#239a3b",
-  4: "#196127",
-};
-
-const dayLabels = ["Mon", "Wed", "Fri"];
+import { levelColors, dayLabels } from "../utils/utils";
 
 const ActivityCalendar = ({ data, blockSize = 12, blockMargin = 2, fontSize = 12 }) => {
   const year = new Date().getFullYear();
@@ -74,7 +63,6 @@ const ActivityCalendar = ({ data, blockSize = 12, blockMargin = 2, fontSize = 12
         })}
       </div>
 
-      {/* Calendar Grid */}
       <div>
         {/* Month labels */}
         <div style={{ display: "flex", marginLeft: blockSize, gap: blockMargin, fontSize, color: "#ffffff" }}>
